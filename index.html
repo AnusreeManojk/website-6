@@ -3,6 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Spotify - Web Player:Music for everyone</title>
     <link rel="icon" type="image/png" sizes="16x16"
         href="https://open.spotifycdn.com/cdn/images/favicon16.1c487bff.png">
@@ -15,8 +17,8 @@
             <div class="top-section-left">
                 <div class="menu-div">
                     <div class="logo">
-                        <img src="https://spotify-website-clone-iota.vercel.app/assets/icons/spotify.svg" alt="">
-
+                        <!-- <img src="https://spotify-website-clone-iota.vercel.app/assets/icons/spotify.svg" alt=""> -->
+                           <img src="images/desktoplogo.svg" alt="">
                     </div>
                     <div class="menu-ul">
                         <ul>
@@ -102,6 +104,10 @@
                             <button class="arrow">
                                 <img src="images/right(1).svg">
                             </button>
+
+                            <div class="mobile-logo">
+                                <img src="images/mobile-logo.svg" alt="">
+                            </div>
                         </div>
                         <div class="header-right">
                             <div class="signup">
@@ -111,7 +117,19 @@
                                 Log in
 
                             </button>
+                            <div class="mobile-right">
+                                <div class="mobile-search">
+                                    <img src="images/mobile-search.svg" alt="">
+                                </div>
+                                <button>
+                                    Open App
+                                </button>
+                                <div class="mobile-menu">
+                                    <img src="images/mobile-menu.svg" alt="">
+                                </div>
+                            </div>
                         </div>
+
 
                     </div>
                 </header>
@@ -128,7 +146,7 @@
                         </div>
                         <div class="card-content">
 
-                            <div class="card">
+                            <div class="card" id="first-cardSec">
                                 <div class="card-img">
                                     <img src="https://i.scdn.co/image/ab67616100005174cb6926f44f620555ba444fca" alt="">
 
@@ -140,7 +158,7 @@
                             </div>
 
 
-                            <div class="card">
+                            <div class="card" id="first-cardSec">
                                 <div class="card-img">
                                     <img src="https://i.scdn.co/image/ab676161000051740261696c5df3be99da6ed3f3" alt="">
 
@@ -152,7 +170,7 @@
                                 </div>
                             </div>
 
-                            <div class="card">
+                            <div class="card" id="first-cardSec">
                                 <div class="card-img">
                                     <img src="https://i.scdn.co/image/ab67616100005174b19af0ea736c6228d6eb539c" alt="">
 
@@ -162,7 +180,7 @@
                                     <p>Artist</p>
                                 </div>
                             </div>
-                            <div class="card">
+                            <div class="card" id="first-cardSec">
                                 <div class="card-img">
                                     <img src="https://i.scdn.co/image/ab67616100005174fb13d10be20fdcb5a670f551" alt="">
 
@@ -172,7 +190,7 @@
                                     <p>Artist</p>
                                 </div>
                             </div>
-                            <div class="card">
+                            <div class="card" id="first-cardSec">
                                 <div class="card-img">
                                     <img src="https://i.scdn.co/image/ab67616100005174fc7c542c04b5f7dc8f1b1c16" alt="">
 
@@ -183,13 +201,58 @@
                                 </div>
                             </div>
 
-                            <div class="card">
+                            <div class="card" id="first-cardSec">
                                 <div class="card-img">
                                     <img src="https://i.scdn.co/image/ab6761610000517490b6c3d093f9b02aad628eaf" alt="">
 
                                 </div>
                                 <div class="card-discript">
                                     <h4>Vishal-Shekhar</h4>
+                                    <p>Artist</p>
+                                </div>
+                            </div>
+                            <div class="card" id="first-cardSec">
+                                <div class="card-img">
+                                    <img src="images/atif.jpg" alt="">
+                                </div>
+                                <div class="card-discript">
+                                    <h4>Atif Aslam</h4>
+                                    <p>Artist</p>
+                                </div>
+                            </div>
+                            <div class="card" id="first-cardSec">
+                                <div class="card-img">
+                                    <img src="images/karan.jpeg" alt="">
+                                </div>
+                                <div class="card-discript">
+                                    <h4>Karan Aujla</h4>
+                                    <p>Artist</p>
+                                </div>
+                            </div>
+                            <div class="card" id="first-cardSec">
+                                <div class="card-img">
+                                    <img src="images/darshan.jpeg" alt="">
+                                </div>
+                                <div class="card-discript">
+                                    <h4>Darshan Raval</h4>
+                                    <p>Artist</p>
+                                </div>
+                            </div>
+                            <div class="card" id="first-cardSec">
+                                <div class="card-img">
+                                    <img src="images/badashah.jpeg" alt="">
+                                </div>
+                                <div class="card-discript">
+                                    <h4>Badshah</h4>
+                                    <p>Artist</p>
+                                </div>
+                            </div>
+                            <div class="card" id="first-cardSec">
+                                <div class="card-img">
+                                    <img src="images/diljith.jpeg" alt="">
+                                </div>
+                                <div class="card-discript">
+                                    <h4>Diljit Dosanjh</h4>
                                     <p>Artist</p>
                                 </div>
                             </div>
@@ -210,18 +273,17 @@
 
                             <div class="card">
                                 <div class="card-padding">
-                                <div class="card-image">
-                                    <img src="https://i.scdn.co/image/ab67616d0000b2735f3ede47954a93aa03efe5f9">
+                                    <div class="card-image">
+                                        <img src="https://i.scdn.co/image/ab67616d0000b2735f3ede47954a93aa03efe5f9">
 
-                                </div>
-                                <div class="card-discript">
-                                    <h4>ANIMAL</h4>
-                                <p>Manan Bhardwaj, Vishal
-                                Mishra, Jaani </p>
-                                </div>
+                                    </div>
+                                    <div class="card-discript">
+                                        <h4>ANIMAL</h4>
+                                        <p>Manan Bhardwaj, Vishal
+                                            Mishra, Jaani </p>
+                                    </div>
                                 </div>
                             </div>
-
 
                             <div class="card">
                                 <div class="card-image">
@@ -231,7 +293,7 @@
                                 <div class="card-discript">
 
                                     <h4>Ek Tha Raja</h4>
-                                <p>Badshah</p>
+                                    <p>Badshah</p>
                                 </div>
                             </div>
 
@@ -252,7 +314,7 @@
                                 </div>
                                 <div class="card-discript">
                                     <h4>Still Rollin</h4>
-                                <p>Shubh</p>
+                                    <p>Shubh</p>
                                 </div>
                             </div>
                             <div class="card">
@@ -262,9 +324,9 @@
                                 </div>
                                 <div class="card-discript">
                                     <h4>Aashiqui 2</h4>
-                                <p> Mithoon, Ankit Tiwari, Jeet
-                                </p>
-                                <p>gannguli</p>
+                                    <p> Mithoon, Ankit Tiwari, Jeet
+                                    </p>
+                                    <p>gannguli</p>
                                 </div>
                             </div>
 
@@ -276,97 +338,15 @@
                                 <div class="card-discript">
                                     <h4>Avesham(Original Motio...</h4>
                                     <p>Sushin Shyam, Vinayak
-                                     Sasikumar</p>
+                                        Sasikumar</p>
                                 </div>
                             </div>
-
                         </div>
                     </div>
-                    <div class="card-container">
-                        <div class="card-section-head">
-                            <div class="card-head-left">
-                                <h2>Featured Charts</h2>
-                            </div>
-                            <div class="card-head-right">
-                                Show all
-                            </div>
-
-                        </div>
-                        <div class="card-content">
-
-                            <div class="card">
-                                <div class="card-image">
-                                    <img
-                                    src="https://seeded-session-images.scdn.co/v2/img/540/r/artist/4YRxDV8wJFPHPTeXepOstw/en-GB">
-                                </div>
-                                <div class="card-discript">
-                                    <h4>Arjith Singh Radio</h4>
-                                <p>With Neha Kakkar, Pritam,
-                                KK and more</p>
-                                </div>
-                            </div>
+                    <div class="spacer"></div>
 
 
-                            <div class="card">
-                                <div class="card-image">
-                                    <img
-                                    src="https://seeded-session-images.scdn.co/v2/img/540/r/artist/2FKWNmZWDBZR4dE5KX4plR/en">
-                                </div>
-                                <div class="card-discript">
-
-                                    <h4>Diljit Dosanjh Radio</h4>
-                                    <p>With Garry Sandhu, Ranjit  Bawa, Amrinder Gill and  more</p>4>
-                                    <p>Artist</p>
-                                </div>
-                            </div>
-
-                            <div class="card">
-                                <div class="card-image">
-                                    <img
-                                    src="https://seeded-session-images.scdn.co/v2/img/540/r/artist/1mYsTxnqsietFxj1OgoGbG/en">
-                                </div>
-                                <div class="card-discript">
-                                    <h4>A.R.Rahman</h4>
-                                    <p>With Shankar Mahadevan, Anirudh Ravichander, Yuva and more</p>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-image">
-                                    <img
-                                    src="https://seeded-session-images.scdn.co/v2/img/540/r/artist/4PULA4EFzYTrxYvOVlwpiQ/en-GB">
-                                </div>
-                                <div class="card-discript">
-                                    <h4>Sidhu Moose Wala Radio</h4>
-                                    <p>With Ammy Virk, Amrit Maan,
-                                        Karan Aujla and more </p>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-image">
-                                    <img
-                                    src="https://seeded-session-images.scdn.co/v2/img/540/r/artist/4fEkbug6kZzzJ8eYX6Kbbp/en-GB">
-                                </div>
-                                <div class="card-discript">
-                                    <h4>KK Radio</h4>
-                                    <p>With Mohit Chuhan, Ankit  Tiwari, Javed Ali and more</p>
-                                </div>
-                            </div>
-
-                            <div class="card">
-                                <div class="card-image">
-                                    <img
-                                    src="https://seeded-session-images.scdn.co/v2/img/540/r/artist/4K6blSRoklNdpw4mzLxwfn/en-GB">
-                                </div>
-                                <div class="card-discript">
-                                    <h4>Kumar Sanu Radio</h4>
-                                    <p>With Udit Narayanan, Alka Yagnik,Anuradha Paudwal...</p>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="card-container">
+                    <div class="card-container" id="popular-radio">
                         <div class="card-section-head">
                             <div class="card-head-left">
                                 <h2>Popular radio</h2>
@@ -381,11 +361,12 @@
                             <div class="card">
                                 <div class="card-image">
                                     <img
-                                    src="https://charts-images.scdn.co/assets/locale_en/regional/weekly/region_global_default.jpg">
+                                        src="https://seeded-session-images.scdn.co/v2/img/540/r/artist/4YRxDV8wJFPHPTeXepOstw/en-GB">
                                 </div>
                                 <div class="card-discript">
-                                    <h4>Top Songs - Global</h4>
-                                <p>Your weekly update of the most most played tracks right no...</p>
+                                    <h4>Arijit Singh Radio</h4>
+                                    <p>With Neha Kakkar, Pritam,
+                                        KK and more</p>
                                 </div>
                             </div>
 
@@ -393,19 +374,102 @@
                             <div class="card">
                                 <div class="card-image">
                                     <img
-                                    src="https://charts-images.scdn.co/assets/locale_en/regional/weekly/region_us_default.jpg">
+                                        src="https://seeded-session-images.scdn.co/v2/img/540/r/artist/2FKWNmZWDBZR4dE5KX4plR/en">
+                                </div>
+                                <div class="card-discript">
+
+                                    <h4>Diljit Dosanjh Radio</h4>
+                                    <p>With Garry Sandhu, Ranjit Bawa, Amrinder Gill and more</p>
+                                    <!-- <p>Artist</p> -->
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-image">
+                                    <img
+                                        src="https://seeded-session-images.scdn.co/v2/img/540/r/artist/1mYsTxnqsietFxj1OgoGbG/en">
+                                </div>
+                                <div class="card-discript">
+                                    <h4>A.R.Rahman</h4>
+                                    <p>With Shankar Mahadevan, Anirudh Ravichander, Yuva and more</p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-image">
+                                    <img
+                                        src="https://seeded-session-images.scdn.co/v2/img/540/r/artist/4PULA4EFzYTrxYvOVlwpiQ/en-GB">
+                                </div>
+                                <div class="card-discript">
+                                    <h4>Sidhu Moose Wala Radio</h4>
+                                    <p>With Ammy Virk, Amrit Maan,
+                                        Karan Aujla and more </p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-image">
+                                    <img
+                                        src="https://seeded-session-images.scdn.co/v2/img/540/r/artist/4fEkbug6kZzzJ8eYX6Kbbp/en-GB">
+                                </div>
+                                <div class="card-discript">
+                                    <h4>KK Radio</h4>
+                                    <p>With Mohit Chuhan, Ankit Tiwari, Javed Ali and more</p>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-image">
+                                    <img
+                                        src="https://seeded-session-images.scdn.co/v2/img/540/r/artist/4K6blSRoklNdpw4mzLxwfn/en-GB">
+                                </div>
+                                <div class="card-discript">
+                                    <h4>Kumar Sanu Radio</h4>
+                                    <p>With Udit Narayanan, Alka Yagnik,Anuradha Paudwal...</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="spacer2"></div> -->
+
+                    <div class="card-container" id="featured-charts">
+                        <div class="card-section-head">
+                            <div class="card-head-left">
+                                <h2>Featured Charts</h2>
+                            </div>
+                            <div class="card-head-right">
+                                Show all
+                            </div>
+
+                        </div>
+                        <div class="card-content" id="featured-img">
+
+                            <div class="card">
+                                <div class="card-image">
+                                    <img
+                                        src="https://charts-images.scdn.co/assets/locale_en/regional/weekly/region_global_default.jpg">
+                                </div>
+                                <div class="card-discript">
+                                    <h4>Top Songs - Global</h4>
+                                    <p>Your weekly update of the most most played tracks right no...</p>
+                                </div>
+                            </div>
+
+
+                            <div class="card">
+                                <div class="card-image">
+                                    <img
+                                        src="https://charts-images.scdn.co/assets/locale_en/regional/weekly/region_us_default.jpg">
                                 </div>
                                 <div class="card-discript">
 
                                     <h4>Top Songs - USA</h4>
-                                <p>Your weekly update of the most played tracks right no...</p>
+                                    <p>Your weekly update of the most played tracks right no...</p>
                                 </div>
                             </div>
 
                             <div class="card">
                                 <div class="card-image">
                                     <img
-                                    src="https://charts-images.scdn.co/assets/locale_en/regional/daily/region_global_default.jpg">
+                                        src="https://charts-images.scdn.co/assets/locale_en/regional/daily/region_global_default.jpg">
                                 </div>
                                 <div class="card-discript">
                                     <h4>Top 50 -Global</h4>
@@ -415,17 +479,17 @@
                             <div class="card">
                                 <div class="card-image">
                                     <img
-                                    src="https://charts-images.scdn.co/assets/locale_en/regional/daily/region_us_default.jpg">
+                                        src="https://charts-images.scdn.co/assets/locale_en/regional/daily/region_us_default.jpg">
                                 </div>
                                 <div class="card-discript">
                                     <h4>Top 50 - USA</h4>
-                                <p>Your daily update of the most played tracks right now...</p>
+                                    <p>Your daily update of the most played tracks right now...</p>
                                 </div>
                             </div>
                             <div class="card">
                                 <div class="card-image">
                                     <img
-                                    src="https://charts-images.scdn.co/assets/locale_en/viral/daily/region_global_default.jpg">
+                                        src="https://charts-images.scdn.co/assets/locale_en/viral/daily/region_global_default.jpg">
                                 </div>
                                 <div class="card-discript">
                                     <h4>Viral 50- Global</h4>
@@ -436,11 +500,11 @@
                             <div class="card">
                                 <div class="card-image">
                                     <img
-                                    src="https://charts-images.scdn.co/assets/locale_en/viral/daily/region_us_default.jpg">
+                                        src="https://charts-images.scdn.co/assets/locale_en/viral/daily/region_us_default.jpg">
                                 </div>
                                 <div class="card-discript">
                                     <h4>Viral 50 - USA</h4>
-                                <p>Your daily update of the most played tracks right now...</p>
+                                    <p>Your daily update of the most played tracks right now...</p>
                                 </div>
                             </div>
 
@@ -450,14 +514,14 @@
                     <div class="card-container">
                         <div class="card-section-head">
                             <div class="card-head-left">
-                                <h2>Spotify Playlist</h2>
+                                <h2>Spotify Playlists</h2>
                             </div>
                             <div class="card-head-right">
                                 Show all
                             </div>
 
                         </div>
-                        <div class="card-content">
+                        <div class="card-content" id="playlist-img">
 
                             <div class="card">
                                 <div class="card-image">
@@ -501,7 +565,7 @@
                                 <div class="card-discript">
                                     <h4>All Out 2020s</h4>
                                     <p>The biggest songs of the
-                                    2020s. Cover:Doja Cat</p>
+                                        2020s. Cover:Doja Cat</p>
                                 </div>
                             </div>
                             <div class="card">
@@ -511,7 +575,7 @@
                                 </div>
                                 <div class="card-discript">
                                     <h4>Jazz in the Background</h4>
-                                <p>Soft instrumental Jazz for all your activities.</p>
+                                    <p>Soft instrumental Jazz for all your activities.</p>
                                 </div>
                             </div>
 
@@ -523,7 +587,7 @@
                                 <div class="card-discript">
                                     <h4>Chill Hits</h4>
                                     <p>Kick back to the best new
-                                    and recent chill hits.</p>
+                                        and recent chill hits.</p>
                                 </div>
                             </div>
 
@@ -583,7 +647,7 @@
                                 </div>
                                 <div class="card-discript">
                                     <h4>True Story Bro! with...</h4>
-                                <p>Spotify</p>
+                                    <p>Spotify</p>
                                 </div>
                             </div>
                             <div class="card">
@@ -604,7 +668,7 @@
                                 </div>
                                 <div class="card-discript">
                                     <h4>Call Her Daddy</h4>
-                                <p>Alex Cooper</p>
+                                    <p>Alex Cooper</p>
                                 </div>
                             </div>
 
@@ -629,7 +693,8 @@
 
                                 </div>
                                 <div class="card-discript">
-                                    <h4>Welcome back, RJ Balaj... </h4>
+                                    <!-- <h4>Welcome back, RJ Balaj... </h4> -->
+                                    <h4>Welcome back, RJ Balaji - Naallanaa Murukku</h4>
                                     <p>Jun 2021 . 15 min</p>
                                 </div>
                             </div>
@@ -642,8 +707,9 @@
                                 </div>
                                 <div class="card-discript">
 
-                                    <h4>#73:Hotel Of Horrors...</h4>
-                                <p>Jun 2021 . 93 min</p>
+                                    <!-- <h4>#73:Hotel Of Horrors...</h4> -->
+                                    <h4>#73: Hotel Of Horrors (Serial Killer - H. H. Holmes)</h4>
+                                    <p>Jun 2021 . 93 min</p>
                                 </div>
                             </div>
 
@@ -654,7 +720,7 @@
                                 </div>
                                 <div class="card-discript">
                                     <h4>Anubis : God of Death -... </h4>
-                                <p>Jun 2021 . 16 min</p>
+                                    <p>Jun 2021 . 16 min</p>
                                 </div>
                             </div>
                             <div class="card">
@@ -674,7 +740,7 @@
                                 </div>
                                 <div class="card-discript">
                                     <h4>Mahabharath Episode 1:...</h4>
-                                <p>Apr 2024 . 24 min</p>
+                                    <p>Apr 2024 . 24 min</p>
                                 </div>
                             </div>
 
@@ -702,7 +768,7 @@
                                         <li>Jobs</li>
                                         <li>For the Records</li>
                                     </ul>
-        
+
                                     <ul>
                                         <li class="li-head">Communities</li>
                                         <li>For Artists</li>
@@ -710,17 +776,17 @@
                                         <li>Advertising</li>
                                         <li>Investors</li>
                                         <li>Vendors</li>
-                                        
+
                                     </ul>
-                              
+
                                     <ul>
                                         <li class="li-head">Useful Links</li>
                                         <li>Support</li>
                                         <li>Free Mobile App</li>
-                                        
+
                                     </ul>
-        
-        
+
+
                                     <ul>
                                         <li class="li-head">Spotify Plans</li>
                                         <li>Premium Individual</li>
@@ -728,32 +794,43 @@
                                         <li>Premium Family</li>
                                         <li>Premium Student</li>
                                         <li>Spotify Free</li>
-                                        
+
                                     </ul>
-                         
+
                                 </div>
                                 <div class="footer-link">
-                                        <div class="link-img">
-                                            <img src="images/insta(1).svg">
-                                        </div>
-                                        <div class="link-img">
-                                            <img src="images/twitter.svg">
-                                        </div>
-                                        <div class="link-img">
-                                            <img src="images/fb.svg">
-                                        </div>
+                                    <div class="link-img">
+                                        <img src="images/insta(1).svg">
+                                    </div>
+                                    <div class="link-img">
+                                        <img src="images/twitter.svg">
+                                    </div>
+                                    <div class="link-img">
+                                        <img src="images/fb.svg">
+                                    </div>
                                 </div>
-                                
+
                             </div>
                             <hr>
                             <div class="footer-bottom">
+                                <div class="span">
+                                    <span>Legal</span>
+                                    <span>Safety & Privacy Center</span>
+                                    <span>Privacy Policy</span>
+                                    <span>Cookies</span>
+                                    <span>About Ads</span>
+                                    <span>Accessibility</span>
+                                </div>
                                 <p>© 2024 Spotify AB</p>
+                                <div class="eng-btn" id="for-mobile">
+                                    <button><img src="images/glob.svg" alt="">English</button>
+                                </div>
 
                             </div>
                         </div>
 
                     </footer>
-                    
+
                 </div>
             </div>
         </div>
@@ -771,4 +848,5 @@
         </div>
     </div>
 </body>
+
 </html>
